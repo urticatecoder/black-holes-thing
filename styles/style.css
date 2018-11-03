@@ -15,6 +15,11 @@ body, html{
   height:100%;
 }
 
+a{
+  color: black;
+  text-decoration: none;
+}
+
 .homepagebackground{
   background-image: url(../images/blackholebackground.jpg);
   height: 100%;
@@ -28,8 +33,42 @@ body, html{
   color: white;
   box-sizing: border-box;
   width: 25%;
-  margin: 210px 38% 0px 37%;
+  margin: 20px 38% 0px 37%;
   text-align: center;
   line-height: 30px;
   font-size: 25px;
+}
+
+.navcell{
+  text-align: center;
+  background: linear-gradient(#c9ced6, #777a7f);
+  width: 6%;
+  border-radius: 10px;
+}
+
+.navbar{
+  box-sizing: border-box;
+  width: 24%;
+  margin: 180px 38.5% 0px 37.5%;
+}
+
+.navbar2{
+  box-sizing: border-box;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.navcell2{
+  background: linear-gradient(#515151, #d6d6d6);
+  width: 20%;
+  height: 50px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.nav2home{
+  background: linear-gradient(#515151, #d6d6d6);
+  height: 40px;
+  text-align: center;
+  border-radius: 15px;
 }
