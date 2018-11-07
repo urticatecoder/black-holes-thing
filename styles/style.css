@@ -13,6 +13,7 @@
 
 body, html{
   height:100%;
+  width:100%;
 }
 
 a{
@@ -31,12 +32,15 @@ a{
 
 .homepagepg{
   color: white;
+  position: static;
   box-sizing: border-box;
   width: 25%;
-  margin: 20px 38% 0px 37%;
+  height: 35%;
+  margin: auto 38% auto 37%;
   text-align: center;
   line-height: 30px;
   font-size: 25px;
+  overflow: scroll;
 }
 
 .navcell{
