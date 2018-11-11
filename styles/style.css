@@ -1,78 +1,28 @@
-.homepageheader{
-  text-align: center;
-  background: linear-gradient(#3f6aaf, #001e4f);
-  width: 30%;
-  height: 60px;
-  box-sizing: border-box;
-  margin: 30px 35% 0px 35%;
-  border: 4px solid black;
-  font-size: 45px;
-  color: white;
-  border-radius: 15px;
+*{
+  font-family: verdana;
 }
 
-body, html{
-  height:100%;
-  width:100%;
-}
-
-a{
-  color: black;
-  text-decoration: none;
-}
-
-.homepagebackground{
-  background-image: url(../images/blackholebackground.jpg);
+html, body{
+  width: 100%;
   height: 100%;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
 }
 
-.homepagepg{
-  color: white;
-  position: static;
-  box-sizing: border-box;
-  width: 25%;
-  height: 35%;
-  margin: auto 38% auto 37%;
-  text-align: center;
-  line-height: 30px;
-  font-size: 25px;
-  overflow: scroll;
-}
-
-.navcell{
-  text-align: center;
-  background: linear-gradient(#c9ced6, #777a7f);
-  width: 6%;
-  border-radius: 10px;
+body{
+  background-color: black;
 }
 
 .navbar{
-  box-sizing: border-box;
-  width: 24%;
-  margin: 180px 38.5% 0px 37.5%;
-}
-
-.navbar2{
-  box-sizing: border-box;
   width: 80%;
-  margin: 0 auto;
+  margin: 0px auto;
+  box-sizing: border-box;
+  padding: 0px;
 }
 
-.navcell2{
-  background: linear-gradient(#515151, #d6d6d6);
-  width: 20%;
-  height: 50px;
+.navcell{
+  width: 25%;
+  height: 30px;
+  background: linear-gradient(indigo, navy);
   text-align: center;
-  border-radius: 10px;
-}
-
-.nav2home{
-  background: linear-gradient(#515151, #d6d6d6);
-  height: 40px;
-  text-align: center;
+  color: white;
   border-radius: 15px;
 }
